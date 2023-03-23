@@ -1,0 +1,407 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wght@8..144,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+
+/* Page Boarder Design */
+
+
+
+#border{
+    border-style: solid;
+    border-color: #9F0707;
+    /* margin-bottom: 350px; */
+    padding: 70px;
+}
+
+#dashboard-border{
+    border-style: solid;
+    border-color: #9F0707;
+    /* margin: 100px; */
+    padding: 90px;
+}
+
+#newRequest-border{
+    border-style: solid;
+    border-color: #9F0707;
+    /* margin: 100px; */
+    padding: 90px;
+}
+
+/* Logo Design */
+
+.logo{
+    width: auto;
+    float: left;
+}
+
+.logo a{
+    font-family: 'Roboto Serif', serif;
+    font-size: 50px;
+    text-decoration: none;
+    color: #1E1E1E;
+    font-weight: bold;
+    padding-left: 5px;
+} 
+
+/* Navigation Menu Design */
+#navigation ul{
+    list-style: none;
+    /* overflow: hidden; */
+    /* float: right; */
+}
+
+#navigation li a{
+    float: right;
+	display:block;
+    padding: 8px;
+    text-decoration: none;
+    color: #1E1E1E;
+    display: inline;
+    font-family: 'Roboto Serif', serif;
+    font-weight: bold;
+}
+
+#navigation a:hover{
+    background-color:#9F0707;
+    font-weight: bold;
+    color: white;
+}
+
+
+
+/* Page Tittle Design */
+
+#pageTittle h1{
+    font-family: 'Roboto Serif', serif;
+    font-size: 40px;
+    text-align: center;
+}
+
+#pageTittle{
+    padding-top:16px;
+    padding-bottom: 15px;
+}
+
+/* Error Message */
+#error{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 12px;
+    color: #9F0707;
+    font-weight: bold;
+}
+
+/* Create Account Form */
+#accountForm{
+    justify-content: center;
+	margin-top: 40px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+#accountForm label{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Mono', monospace;
+    text-align: justify;
+}
+
+
+#accountForm ::placeholder{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Mono', monospace;
+}
+
+#accountForm input{
+    width: auto;
+    margin-bottom: 15px;
+}
+
+#accountForm input[type = "text"], [type="password"]{
+    border: none;
+    border-bottom: 1.5px solid #9F0707 ;
+    outline: none;
+    height: 35px;
+}
+
+#accountForm input[type = "submit"]{
+    border: 1px solid #9F0707;
+    background: #D9D9D9;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 1.8px;
+    height: 35px;
+    color: #1E1E1E;
+}
+
+#accountForm input[type ="submit"] :hover{
+    cursor: pointer;
+}
+
+/* Login Form Design */
+
+#loginForm{
+    justify-content: center;
+	margin-top: 100px;
+    text-align: center;
+    padding-bottom: 108px;
+}
+
+#loginForm label{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Mono', monospace;
+    text-align: justify;
+}
+
+
+#loginForm ::placeholder{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Mono', monospace;
+}
+
+#loginForm input{
+    width: auto;
+    margin-bottom: 15px;
+}
+
+#loginForm input[type = "text"], [type="password"]{
+    border: none;
+    border-bottom: 1.5px solid #9F0707 ;
+    outline: none;
+    height: 35px;
+}
+
+#loginForm input[type = "submit"]{
+    border: 1px solid #9F0707;
+    background: #D9D9D9;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 1.8px;
+    height: 10px;
+    color: #1E1E1E;
+}
+
+/* New Request Form */
+#newRequestForm{
+    /* justify-content: left; */
+	/* margin-top: 100px; */
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+#newRequestForm label{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Mono', monospace;
+    text-align: left;
+}
+
+
+#newRequestForm ::placeholder{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Mono', monospace;
+}
+
+#newRequestForm input{
+    width: auto;
+    margin-bottom: 15px;
+    border: none;
+    border-bottom: 1.5px solid #9F0707 ;
+    outline: none;
+    height: 35px;
+}
+
+/* New Patient Form */
+#newPatientForm{
+    /* justify-content: left; */
+	/* margin-top: 100px; */
+    text-align: center;
+    padding-bottom: 90px;
+}
+
+#newPatientForm label{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Mono', monospace;
+    text-align: left;
+}
+
+
+#newPatientForm ::placeholder{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Mono', monospace;
+}
+
+#newPatientForm input{
+    width: auto;
+    margin-bottom: 15px;
+    border: none;
+    border-bottom: 1.5px solid #9F0707 ;
+    outline: none;
+    height: 35px;
+}
+
+/* Footer Design */
+
+#reportBug h4{
+    justify-content: right;
+    text-align: left;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 15px;
+}
+
+
+#reportBug a{
+    text-decoration: none;
+    color: #1E1E1E;
+}
+
+#newAccount h4{
+    justify-content: right;
+    text-align: right;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 15px;
+}
+
+
+#newAccount a{
+    text-decoration: none;
+    color: #1E1E1E;
+}
+
+#trial{
+    font-family: 'Roboto Mono', monospace;
+}
+
+
+/* #button {
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
+	background-color:#ffffff;
+	border-radius:6px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	cursor:pointer;
+	color:#666666;
+	font-family: 'Roboto Mono', monospace;
+	font-size:15px;
+	font-weight:bold;
+	padding:28px 70px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #f6f6f6 5%, #ffffff 100%);
+	background-color:#f6f6f6;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+} */
+
+/* Dashboard Button Design  */
+
+#buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+#buttons2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+#dashboard-button a{
+    text-decoration: none;
+    color: #1E1E1E;
+}
+
+#dashboard-button{
+    border-radius:6px;
+    border-style: solid;
+    border-color: #9F0707;
+    font-family: 'Roboto Serif', serif;
+	font-size:15px;
+	font-weight:bold;
+    padding: 55px;
+    
+    
+}
+
+/* Submit Button */
+#submit{
+	cursor:pointer;
+    border-radius:3px;
+    border-style: solid;
+    border-color: #9F0707;
+    font-family: 'Roboto Serif', serif;
+    font-weight: bold;
+	font-size:20px;
+    /* padding: 9px; */
+    letter-spacing: 2px;
+}
+
+#submit a{
+	text-decoration: none;
+    color: #1E1E1E;
+    letter-spacing: 2px;
+}
+
+/* Request Directory Table */
+
+.tableHeader{
+    font-family: 'Roboto Serif', monospace;
+    font-weight: bold;
+	font-size:20px;
+    letter-spacing: 2.0px;  
+    color: #1E1E1E;
+    background-color: #f2f2f2;
+}
+
+#requestTable td, th{
+    border-style: solid;
+    border-color: #9F0707;
+    justify-content: center;
+    text-align: center;
+    border-collapse: collapse;
+    font-family: 'Roboto Serif', serif;
+}
+
+#requestTable{
+    margin-left: 130px;
+    margin-right: auto;
+    margin-bottom: 270px;
+    /* padding: 80px; */
+}
+
+/* Patient Directory Table */
+
+
+
+#patientTable td, th{
+    border-style: solid;
+    border-color: #9F0707;
+    justify-content: center;
+    text-align: center;
+    
+    font-family: 'Roboto Serif', serif;
+}
+
+#patientTable{
+    margin-left: 130px;
+    margin-right: auto;
+    margin-bottom: 270px;
+    /* border-collapse: collapse; */
+    /* padding: 80px; */
+}
+
